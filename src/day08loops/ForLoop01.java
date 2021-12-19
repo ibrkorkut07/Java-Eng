@@ -3,14 +3,13 @@ package day08loops;
 public class ForLoop01 {
 public static void main(String[] args) {
 		
-//   Type code to print "Hello!" 10 times on the console
+//   Type code to print "Hello!" 4 times on the console
 //   1st Way: Not recommended
 	System.out.println("Hello!");
 	System.out.println("Hello!");
 	System.out.println("Hello!");
 	System.out.println("Hello!");	
-	System.out.println();
-		
+			
 //   2nd Way: For repeated tasks you can use loops i)for-loop ii)while-loop iii)do-while-loop iv)for-each-loop
 	for (int i = 1; i <= 4; i++) {
 	System.out.println("Hello!");	
