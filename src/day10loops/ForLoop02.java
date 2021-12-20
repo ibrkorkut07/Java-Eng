@@ -5,9 +5,9 @@ public class ForLoop02 {
 /*
 Get the number of rows from user then draw a right triangle by using asterixes
 Number of rows = 4  ==>  *
-        	                                * *
-	                                * * *
-	                               * * * *
+        	             * *
+	                     * * *
+	                     * * * *
 */
 public static void main(String[] args) {
 	Scanner scan = new Scanner(System.in);

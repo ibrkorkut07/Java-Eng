@@ -6,8 +6,8 @@ public class ForLoop01 {
 Get the number of rows and columns from user.
 Create a rectangle.
 rows = 3 and column = 5 ==> * * * * *
- 	                            	         * * * * *
-	 	                        * * * * *
+ 	                        * * * * *
+	 	                    * * * * *
 */
 public static void main(String[] args) {
 	Scanner scan = new Scanner(System.in);
