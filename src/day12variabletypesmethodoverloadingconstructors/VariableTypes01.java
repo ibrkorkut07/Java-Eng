@@ -1,4 +1,4 @@
-package day12;
+package day12variabletypesmethodoverloadingconstructors;
 /*
 There are 3 main variable types in Java;
 1)  Local Variables: Variables created in method body "age" and "sum" are local variables
@@ -23,9 +23,12 @@ Note for Instance and Static Variables: To access an "Instance Variable" from an
 But to access "Class Variable" from another class, no need to create object, you can access to a "Class Variable" by using just class name                               
 */
 public class VariableTypes01 {
-String name = "Ali Can"; // name is an instance variable. Built outside of all methods and inside the class. You can initialize it if you want without using Static keyword. If you do not initialize, Java puts "default values". To access from another class, you have to create "object"
+String name = "Ali Can"; // name is an instance variable. Built outside of all methods and inside the class. 
+						 // You can initialize it if you want without using Static keyword. If you do not initialize, Java puts "default values". 
+						 // To access from another class, you have to create "object"
 	boolean isOld;		     
-	static String id;  //   id is a class (static) variable: Common and visible for all objects, built from  the class. To access from another class, no need to create object, you can access to a "Class Variable" by using just class name
+	static String id;  //   id is a class (static) variable: Common and visible for all objects, built from  the class. 
+					   // To access from another class, no need to create object, you can access to a "Class Variable" by using just class name
 public static void main(String[] args) {		
 	int age = 12;      //   age is a local variable (you have to initialize it) & can be used just inside the method body which it was built in	
 	System.out.println(age);		

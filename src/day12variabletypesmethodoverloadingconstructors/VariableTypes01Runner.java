@@ -1,11 +1,11 @@
-package day12;
+package day12variabletypesmethodoverloadingconstructors;
 
 public class VariableTypes01Runner {
 
 	public static void main(String[] args) {
 
 			VariableTypes01 obj1 = new VariableTypes01 (); // VariableTypes01 is the classname. 
-			System.out.println(obj1.name); // Ali Can (Becausae it Ali Can is an object variable for all objects.
+			System.out.println(obj1.name); // Ali Can (Because it (Ali Can) is an object variable for all objects.
 			obj1.name = "Veli han";
 			System.out.println(obj1.name); // Veli Han
 			
