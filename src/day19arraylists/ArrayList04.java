@@ -11,7 +11,7 @@ public static void main(String[] args) {
 	list1.add(18);
 	list1.add(21);
 	System.out.println(list1);
-	Collections.sort(list1);
+	Collections.sort(list1);  // Use Arrays.sort for Arrays but Collections.sort for List to sort elements.
 	System.out.println(list1);		
 	int minDiff = Integer.MAX_VALUE;
 	for(int i = 1; i<list1.size(); i++) {
